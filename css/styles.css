@@ -2,6 +2,7 @@
 
 :root {
   --bg-gray: #888;
+  --text-gray: #4a4a4a;
   --color-primary: #4d41c0;
   --white: #fff;
 }
@@ -20,6 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 html, body {
   background-color: var(--bg-gray);
 }
+
+/* ---------- Código do Cabeçalho ---------- */
 
 header {
   background-color: var(--color-primary);
@@ -57,4 +60,51 @@ a, a:hover {
 
 .dsmovie-github-link img {
   margin-right: 10px;
+}
+
+/* -------------- Código dos Cards ----------------*/
+
+#dsmovie-card-list {
+  padding: 40px 0;
+}
+
+.dsmovie-card {
+  width: 360px;
+}
+
+.dsmovie-card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.dsmovie-card-description {
+  padding: 10px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  background-color: var(--white);
+  border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-description h3 {
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: var(--text-gray);
+}
+
+.dsmovie-button, .dsmovie-button:hover {
+  width: 180px;
+  height: 40px;
+  background-color: var(--color-primary);
+  color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+
 }

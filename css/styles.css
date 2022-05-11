@@ -1,3 +1,5 @@
+/* ------------------------------ Geral ------------------------------ */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
@@ -22,7 +24,7 @@ html, body {
   background-color: var(--bg-gray);
 }
 
-/* ---------- Código do Cabeçalho ---------- */
+/* ------------------------------ Código do Cabeçalho ------------------------------ */
 
 header {
   background-color: var(--color-primary);
@@ -62,7 +64,7 @@ a, a:hover {
   margin-right: 10px;
 }
 
-/* -------------- Código dos Cards ----------------*/
+/* ---------------------------------- Código dos Cards ------------------------------------*/
 
 #dsmovie-card-list {
   padding: 40px 0;
@@ -110,4 +112,12 @@ a, a:hover {
   justify-content: center;
   border-radius: 4px;
 
+}
+
+
+/* ---------------------------------- Form ---------------------------------- */
+
+.dsmovie-form-container {
+  padding: 40px 0;
+  max-width: 480px;
 }

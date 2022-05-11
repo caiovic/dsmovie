@@ -70,7 +70,7 @@ a, a:hover {
 /* ---------------------------------- Código dos Cards ------------------------------------*/
 
 #dsmovie-card-list {
-  padding: 40px 0;
+  padding: 40px 10px;
 }
 
 .dsmovie-card {
@@ -90,7 +90,7 @@ a, a:hover {
   justify-content: space-between; 
   background-color: var(--white);
   border-radius: 0 0 8px 8px;
-  height: 220px;
+  height: 190px;
 }
 
 .dsmovie-card-description h3 {
@@ -100,7 +100,7 @@ a, a:hover {
   font-weight: 700;
   color: var(--text-gray);
   text-align: center;
-  margin-bottom: 23px;
+  margin-bottom: 10px;
 }
 
 .dsmovie-card-description-bottom {

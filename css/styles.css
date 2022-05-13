@@ -196,7 +196,7 @@ a, a:hover {
 /* ---------------------------------- Form ---------------------------------- */
 
 .dsmovie-form-container {
-  padding: 40px 0;
+  padding: 40px 10px;
   max-width: 480px;
 }
 
@@ -239,3 +239,17 @@ a, a:hover {
   font-weight: 700;
 }
 
+/* ---------------------------------- Feedback ---------------------------------- */
+
+
+
+.dsmovie-form-description .dsmovie-feedback {
+  margin: 30px 0 30px 0;
+  font-size: 35px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.dsmovie-button .dsmovie-button-feedback {
+  margin-top: 20px;
+}
